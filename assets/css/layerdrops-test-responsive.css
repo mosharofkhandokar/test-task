@@ -1,0 +1,174 @@
+/*--------------------------------------------------------------
+>>> TABLE OF CONTENTS:
+----------------------------------------------------------------
+# Responsive For Extra large Device 2
+# Desktop Device
+# Responsive For Tab Device
+# Responsive For Mobile Device
+
+--------------------------------------------------------------*/
+
+/*--------------------------------------------------------------
+# Responsive For Extra large Device 2
+--------------------------------------------------------------*/
+@media (min-width: 1200px) and (max-width: 1600px){
+	.main-slider__socails{
+        top: 120px;
+        left: 40px;
+    }
+    .main-slider__phone{
+        bottom: 178px;
+        left: -22px;    
+    }
+    .main-slider__content h2{
+        font-size: 105px;
+        line-height: 95px;
+    }
+    .main-slider__shape-2{
+        width: 490px;
+        overflow: hidden;
+        right: 0;
+    }
+    .main-slider__content-curved-circle-box{
+        margin-right: 180px;
+    }
+}
+@media (min-width: 1200px) and (max-width: 1360px){
+    
+    .main-slider__shape-2{
+        width: 420px;
+    }
+    .main-slider__content-curved-circle-box{
+        margin-right: 200px;
+    }
+    .main-slider__socails {
+        top: 60px;
+        left: 30px;
+    }
+    .main-slider__phone{
+        left: -35px;
+    }
+}
+/*--------------------------------------------------------------
+# Desktop Device
+--------------------------------------------------------------*/
+@media(max-width: 1199px){
+	.about-content__title{
+        font-size: 45px;
+    }
+}
+@media (min-width: 992px) and (max-width: 1199px){
+	.feature-item__hover-content{
+        padding: 20px;
+    }
+    .feature-item__hover-content p{
+        padding-bottom: 15px;
+        font-size: 14px;
+        line-height: 24px;
+    }
+    .feature-item__content{
+        padding-left: 20px;
+    }
+    .feature-item__hover-content h4{
+        margin-bottom: 8px;
+    }
+    .main-slider__shape-2{
+        width: 35%;
+        right: 0;
+        overflow: hidden;
+    }
+    .main-slider__socails{
+        top: 75px;
+        left: 25px;
+    }
+    .main-slider__phone {
+        bottom: 178px;
+        left: -35px;
+    }
+    .main-slider__content h2{
+        font-size: 90px;
+        line-height: 90px;
+    }
+    .main-slider__content-curved-circle-box{
+        margin-right: 54%;
+        margin-top: 0;
+    }
+    .main-slider .container{
+        padding-bottom: 220px;
+    }
+}
+/*--------------------------------------------------------------
+# Responsive For Tab Device
+--------------------------------------------------------------*/
+@media (min-width: 768px) and (max-width: 991px){
+	.feature-item__hover-content{
+        padding: 25px;
+    }
+    .feature-item__hover-content p{
+        padding-bottom: 20px;
+    }
+}
+@media (max-width: 991px){
+	.feature-item{
+        margin: 0 0 30px;
+    }
+    .about-content{
+        margin-top: 50px;
+    }
+	.main-slider__shape-1,
+    .main-slider__shape-2{
+        display: none;
+    }
+    .main-slider__socails,
+    .main-slider__phone{
+        display: none;
+    }
+    .main-slider .container {
+        padding-top: 180px;
+        padding-bottom: 150px;
+    }
+    .main-slider__content-curved-circle-box{
+        margin: 40px 0 0;
+    }
+}
+/*--------------------------------------------------------------
+# Responsive For Mobile Device
+--------------------------------------------------------------*/
+@media (max-width: 767px){
+    .main-slider .container {
+        padding-top: 150px;
+        padding-bottom: 120px;
+    }
+    .main-slider__content h2{
+        font-size: 50px;
+        line-height: 55px;
+        letter-spacing: -2px;
+    }
+    .about-content__title{
+        font-size: 30px;
+    }
+    .feature-item__hover-content{
+        padding: 25px 30px 25px;
+    }
+}
+@media (max-width: 360px){
+    .feature-item__hover-content{
+        padding: 20px 20px 20px;
+    }
+    .feature-item__hover-content h4{
+        margin-bottom: 6px;
+    }
+    .feature-item__hover-content p {
+        margin: 0 0 5px;
+        padding: 0 0 8px;
+        line-height: 24px;
+    }
+    .feature-item__content{
+        padding: 15px 20px 21px;
+    }
+    .feature-item__content span{
+        right: 15px;
+        top: -35px;
+    }
+
+}
